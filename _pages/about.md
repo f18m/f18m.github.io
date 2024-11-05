@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /about.html
+permalink: /about/
 title:  "About Me"
 toc: true
 date:   2024-11-05
