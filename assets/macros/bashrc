@@ -1,0 +1,154 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+#shopt -s checkwinsize
+
+# set prompt
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+# set win title
+case "$TERM" in
+xterm*|rxvt*)
+    PROMPT_COMMAND='echo -ne "\033]0;${PWD/$HOME/~}\007"'
+    ;;
+*)
+    ;;
+esac
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+#if [ -f ~/.bash_aliases ]; then
+#    . ~/.bash_aliases
+#fi
+
+# enable color support of ls and also add handy aliases
+if [ "$TERM" != "dumb" ]; then
+    eval "`dircolors -b`"
+fi
+
+#============================
+# Francesco's aliases
+#============================
+
+# dir navigation
+alias l='ls --color=auto -CF -lh --group-directories-first'
+alias ll='ls --color=auto -CF -lh --group-directories-first'
+alias ldir='ls --color=auto -CF -lh | grep ^d'   # selects only ls' items which are directories
+alias ls='ls --color=auto -CF -h --g'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias nosym='cd `pwd -P`'                    # no symlinks!
+alias du='du -hs'
+alias df='df -h'
+
+# object symbols
+alias searchsym='nm -A *.a | grep '
+
+
+#============================
+# Francesco's key binds
+#============================
+
+# this makes TAB key autocomplete the command line instead of showing the list
+# of possible completions
+#bind '"\t":menu-complete'
+
+# use shift+TAB for default bash mode: show list of ambiguos completions
+#bind '"\x1b\x5b\x5a": possible-completions'
+
+# this makes it possible to use SHIFT+ENTER to launch commands in the form:
+#     ( cmd & )
+# rather than
+#       cmd
+# This suppresses the job control asynchronous messages and any error message
+# coming from the program...
+#bind '"\x1b\x4f\x4d"':"\"\001(\005 >/dev/null 2>&1 &)\r\""
+
+# PgUp shows last 20 commands
+#bind '"\e[5~"':"\"history | tail -20\C-m\""
+
+
+#============================
+# Francesco's functions
+#============================
+
+# Custom functions
+# IMPORTANT: the final "$@" is critical to be able to grep for strings with spaces
+grepcpp()
+{
+	clear
+	echo ------------------------------------------------------------------------------------------
+	echo
+	echo
+	grep -R -in --include=\*.{c,cpp,h,hpp} --include=Makefile --include=makefile "$@"
+	echo
+	echo ------------------------------------------------------------------------------------------
+}
+grepcpphdr()
+{
+	clear
+	echo ------------------------------------------------------------------------------------------
+	echo
+	echo
+	grep -R -in --include=\*.{h,hpp} "$@"
+	echo
+	echo ------------------------------------------------------------------------------------------
+}
+grepscripts()
+{
+	clear
+	echo ------------------------------------------------------------------------------------------
+	echo
+	echo
+	grep -R -in --include=\*.sh "$@"
+	echo
+	echo ------------------------------------------------------------------------------------------
+}
+grepmakefiles()
+{
+	clear
+	echo ------------------------------------------------------------------------------------------
+	echo
+	echo
+	grep -R -in --include=Makefile\* --include=makefile\* "$@"
+	echo
+	echo ------------------------------------------------------------------------------------------
+}
+grepjava()
+{
+	clear
+	echo ------------------------------------------------------------------------------------------
+	echo
+	echo
+	grep -R -in --include=\*.java "$@"
+	echo
+	echo ------------------------------------------------------------------------------------------
+}
+grepgo()
+{
+	clear
+	echo ------------------------------------------------------------------------------------------
+	echo
+	echo
+	grep -R -in --include=\*.go "$@"
+	echo
+	echo ------------------------------------------------------------------------------------------
+}

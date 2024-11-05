@@ -1,0 +1,51 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: some precious macros for VC++ by Francesco Montorsi
+'------------------------------------------------------------------------------
+
+Option Explicit
+
+Sub MakeUnicodeCompatibleSelection()
+'DESCRIPTION: Encloses all C strings with the wxT() macro (skipping those strings
+'             already enclosed in the wxT macro). Works on selection only.
+
+	' enclose all C strings (\:q is wonderful !!) in wxT macro
+	ActiveDocument.Selection.ReplaceText "\(\:q\)", "wxT(\1)", dsMatchRegExp
+
+	' replace double-enclosed strings with single-enclosed ones:
+	' wxT(wxT(xxx)) -> wxT(xxx)
+	ActiveDocument.Selection.ReplaceText "wxT(wxT(\(\:q\)))", "wxT(\1)", dsMatchRegExp
+
+	' replace _T(wxT(xxx)) -> _T(xxx)	
+	ActiveDocument.Selection.ReplaceText "_T(wxT(\(\:q\)))", "_T(\1)", dsMatchRegExp
+
+End Sub
+
+
+Sub MakeUnicodeCompatibleAllDoc()
+'DESCRIPTION: applies the MakeUnicodeCompatibleSelection macro on the entire
+'             document. Then remove the wxT macro from the
+'             - #include statements which have been corrupted
+'             - #pragma statements
+'             - C++ comments
+
+
+	ActiveDocument.Selection.SelectAll
+	MakeUnicodeCompatibleSelection
+
+	' restore includes
+	ActiveDocument.Selection.ReplaceText "#include wxT(\(\:q\))", "#include \1", dsMatchRegExp
+
+	' restore pragmas
+	ActiveDocument.Selection.ReplaceText "#pragma \(.*\)wxT(\(\:q\))", "#pragma \1\2", dsMatchRegExp
+
+	' restore comments;
+	' the commands are repeated many times to handle the case in which quoted
+	' strings appear more than once in the same comment line...
+	ActiveDocument.Selection.ReplaceText "//\(.*\)wxT(\(\:q\))", "//\1\2", dsMatchRegExp
+	ActiveDocument.Selection.ReplaceText "//\(.*\)wxT(\(\:q\))", "//\1\2", dsMatchRegExp
+	ActiveDocument.Selection.ReplaceText "//\(.*\)wxT(\(\:q\))", "//\1\2", dsMatchRegExp
+	ActiveDocument.Selection.ReplaceText "//\(.*\)wxT(\(\:q\))", "//\1\2", dsMatchRegExp
+	ActiveDocument.Selection.ReplaceText "//\(.*\)wxT(\(\:q\))", "//\1\2", dsMatchRegExp
+	' up to five quoted strings in the same comment line can be handled by the code above
+
+End Sub

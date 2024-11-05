@@ -1,0 +1,13 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: some precious macros for VC++ by Francesco Montorsi
+'------------------------------------------------------------------------------
+
+Option Explicit
+
+Sub RemoveTrailingSpaces()
+' Removes the trailing spaces from the selected lines.
+
+	' just do a smart replacement
+	ActiveDocument.Selection.ReplaceText "\:b+\($\)", "\1", dsMatchRegExp
+
+End Sub

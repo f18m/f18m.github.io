@@ -1,0 +1,28 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: some precious macros for VC++ by Francesco Montorsi
+'------------------------------------------------------------------------------
+
+Option Explicit
+
+Sub ReIndentAll()
+'DESCRIPTION: applies the Edit->Advanced->Tabify + Edit->Advanced->Format on all open docs
+'             starting from line 24; close all windows using Window->Close All
+'             then open using SHIFT key all the files you want. Then, run this
+'             macro.
+'DATE: 30/7/2003 by Francesco Montorsi
+
+	Dim doc
+
+	for each doc in Application.Documents
+
+		' 24 is the number of lines used by GPL header
+		doc.Selection.GoToLine 24
+
+		doc.Selection.GoToLine dsLastLine, dsSelect
+		doc.Selection.Tabify
+		doc.Selection.SmartFormat
+
+	next
+
+End Sub
+

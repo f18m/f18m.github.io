@@ -1,0 +1,18 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: some precious macros for VC++ by Francesco Montorsi
+'------------------------------------------------------------------------------
+
+Option Explicit
+
+Sub RemoveEmptyLines()
+'DESCRIPTION: Removes all the empty lines from the selected portion of the document.
+
+	old = -1
+	while ActiveDocument.Selection.CurrentLine <> old
+		old = old + 1
+		ActiveDocument.Selection.LineDown
+		ActiveDocument.Selection.DeleteWhitespace dsVertical  
+	wend
+
+End Sub
+

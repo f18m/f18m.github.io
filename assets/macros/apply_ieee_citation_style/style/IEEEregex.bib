@@ -1,0 +1,15 @@
+IEEEregex.bib
+by Francesco Montorsi
+
+Just some additional automated replacement I like to perform in my BibTeX files:
+
+the following subtitution ensures that titles are surrounded by double curly brackets 
+(so that BibTeX will respect upper case characters) in the title tags
+@STRING{"^\s*title\s*=\s*{([^}]+)}," = "title = {{\1}},"}
+
+the following subtitution ensures that each equal sign has one space on the left and one on the right
+@STRING{"(\w+)\s*=\s*{(.+)$" = "\1 = {\2"}
+ 
+the following subtitution ensures that there are no final spaces
+@STRING{"[ \t]*}}[ \t]*,[ \t]*$" = "}},"}
+ 

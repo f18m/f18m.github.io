@@ -1,0 +1,10 @@
+Sub DeleteHyperlinks()
+'
+' DeleteHyperlinks Macro
+' Macro created on 15/05/2003 by Francesco Montorsi
+' Removes all the hyperlinks from the selected portion of document
+'
+For n = 1 To Selection.Range.Hyperlinks.Count
+    Selection.Range.Hyperlinks(1).Delete
+    Next
+End Sub

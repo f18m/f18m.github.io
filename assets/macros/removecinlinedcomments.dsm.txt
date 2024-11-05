@@ -1,0 +1,13 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: some precious macros for VC++ by Francesco Montorsi
+'------------------------------------------------------------------------------
+
+Option Explicit
+
+Sub RemoveCInlinedComments()
+'DESCRIPTION: Removes the C comments replacing them with C++ comments.
+
+	'TODO: Put macro code here
+	ActiveDocument.Selection.ReplaceText "/** \([^**]*\) **/", "// \1", dsMatchRegExp
+
+End Sub
