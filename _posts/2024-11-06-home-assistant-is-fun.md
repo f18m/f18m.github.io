@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "HomeAssistant is fun!"
+title:  "HomeAssistant is fun"
 date:   2024-11-06
-categories: home-assistant projects
+categories: homeassistant
 ---
 
 In the last year I've been using [HomeAssistant](https://www.home-assistant.io/) quite a lot.
