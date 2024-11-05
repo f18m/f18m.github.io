@@ -11,12 +11,12 @@ Welcome to my homepage. My name is **Francesco Montorsi**.
 
 ## Short Bio
 
-Very short bio: I was born in 1986 near Modena, Italy. I took the Bachelor Degree and the Master Degree in _Electronic Engineering_ at the [University of Modena and Reggio Emilia](http://www.ing.unimo.it). I took the PhD in the same university in the area of [telecommunications](http://en.wikipedia.org/wiki/Telecommunication) (more info about my PhD research activity is in the [publications](publications.html) page). I'm currently employed in a telecommunication company which provides high-performance high through-put live analysis of data on mobile network operators.
+Very short bio: I was born in 1986 near Modena, Italy. I took the Bachelor Degree and the Master Degree in _Electronic Engineering_ at the [University of Modena and Reggio Emilia](http://www.ing.unimo.it). I took the PhD in the same university in the area of [telecommunications](http://en.wikipedia.org/wiki/Telecommunication) (more info about my PhD research activity is in the [publications](/publications/) page). I'm currently employed in a telecommunication company which provides high-performance high through-put live analysis of data on mobile network operators.
 
-My favourite hobbies are [computer programming](prog.html) (thus you'll find here mostly stuff about it) and [DIY electronics](electronics.html).  
-I keep up to date also a page with my (scientific) [publications](publications.html) and the related material (software and data used in the papers, etc).
+My favourite hobbies are [computer programming](/programming/) (thus you'll find here mostly stuff about it) and [DIY electronics](/electronics/).  
+I keep up to date also a page with my (scientific) [publications](/publications/) and the related material (software and data used in the papers, etc).
 
-My curriculum vitae is available [here](misc/cv.pdf) as well as my theses:
+My curriculum vitae is available [here](misc/Francesco_Montorsi_CV.pdf) as well as my theses:
 
 *   [bachelor thesis](http://sourceforge.net/projects/frm-research/files/Publications/tesi_triennale.pdf) (in italian) entitled "Development of Fine Frequency Synchronization System for OFDM Communication Systems";
 *   [master thesis](http://sourceforge.net/projects/frm-research/files/Publications/tesi_specialistica.pdf) (in italian) entitled "Development and Implementation of a Wideband Digital Modem";
@@ -39,5 +39,13 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiEkclo+Ai+ADF7ov9Mt2udKLwxon7h+3n2IWIGosH
 To install the key on a Unix-like machine with OpenSSH:
 
 *   log into the remote host entering the password
-*   download the public key: cd ~/.ssh && wget http://frm.users.sourceforge.net/misc/francesco.pub
-*   install the public key: cat >> ~/.ssh/authorized\_keys2 < ~/.ssh/francesco.pub
+*   download the public key: 
+
+```
+cd ~/.ssh && wget http://frm.users.sourceforge.net/misc/francesco.pub
+```
+*   install the public key: 
+
+```
+cat >> ~/.ssh/authorized\_keys2 < ~/.ssh/francesco.pub
+```
