@@ -11,7 +11,7 @@ Nowadays, all operating systems and many programs allow at least a basic type of
 
 ## Bash
 
-As any Linux user knowns, the shell is always the most used program. And the [BASH](http://www.tldp.org/LDP/abs/html/ "Click to go at the famous Advanced Bash Scripting Guide") shell is one of the most customizable program: the `.bashrc` script is executed each time a new BASH session begins.
+As any Linux user knowns, the shell is always the most used program. And the [BASH](https://www.tldp.org/LDP/abs/html/ "Click to go at the famous Advanced Bash Scripting Guide") shell is one of the most customizable program: the `.bashrc` script is executed each time a new BASH session begins.
 
 1.  **[.bashrc](/assets/macros/bashrc)**: the Ubuntu default .bashrc plus some _aliases_ for my most used commands for **directory navigation**, **source code grepping**, etc
     
@@ -26,7 +26,7 @@ As any Linux user knowns, the shell is always the most used program. And the [BA
 
 ## Inkscape
 
-1.  **[frm\_eqtexsvg.py](/assets/macros/frm_eqtexsvg.zip)**: a simple modification of [Julien Vitard's extension "Latex formula"](http://www.julienvitard.eu/en/eqtexsvg_en.html) for [Inkscape](http://inkscape.org/). This mod adds a "formula display size factor" which can be used to ensure that, regardless of the size of the paper selected for the open document in Inkscape, the Latex formulas will always be rendered with the same font/symbol size.
+1.  **[frm\_eqtexsvg.py](/assets/macros/frm_eqtexsvg.zip)**: a simple modification of [Julien Vitard's extension "Latex formula"](https://www.julienvitard.eu/en/eqtexsvg_en.html) for [Inkscape](https://inkscape.org/). This mod adds a "formula display size factor" which can be used to ensure that, regardless of the size of the paper selected for the open document in Inkscape, the Latex formulas will always be rendered with the same font/symbol size.
     
 
 ## Cadsoft EAGLE

@@ -17,23 +17,23 @@ In this page I list some of my main electronic projects, listed from the most re
 
 ## Software Tools for HW projects
 
-My favourite software packages for electronics are:
+My favourite software packages for electronics were:
 
-*   [Spectrum Microcap 9](http://www.spectrum-soft.com/): as SPICE simulator
-*   [CadSoft EAGLE](http://www.cadsoft.de/): to draw the final schematic and to route the tracks
+* _Spectrum Microcap_ as SPICE simulator; unfortunately the company behind this simulator was shut down. I need to find a modern alternative!
+* _CadSoft EAGLE_ as schematic CAD; unfortunately this software product has been acquired by Autodesk which is discontinuing this tool... it's a pity.
 
 Nowadays electronics involves lots of technologies and thus lots of different software; during my thesis and my projects I've thus used also: Cadence OrCAD, National Instruments MultiSim, Microchip MPLAB IDE, Altera Quartus II, Texas Instruments Code Composer Studio, Kicad.
 
 ## BeagleTorrent (2013-2016) 
 
-This is actually more a software project than an electronic project. Simply put: I wanted to transform a low-cost single-board computer, the well-known [BeagleBone](http://beagleboard.org/bone), into a low-cost, low-power, multimedia server with the following features:
+This is actually more a software project than an electronic project. Simply put: I wanted to transform a low-cost single-board computer, the well-known [BeagleBone](https://www.beagleboard.org/), into a low-cost, low-power, multimedia server with the following features:
 
 *   controlled by an easy-to-use web interface
 *   torrent server downloading on an USB external drive (BeagleBone and other single-board-computers employ an SD card for the OS storage)
 *   exposing the contents of the USB external drive as a Windows network share (via SAMBA)
 *   streaming multimedia contents over the network, directly to my Samsung TV (via ReadyMedia)
 
-I realized this project at first using a [BeagleBone](http://beagleboard.org/bone) and [Raspberry PI](https://www.raspberrypi.org/). However in both cases I had a lot of troubles with external drives attached via USB. For this reason I switched to [OLinuxino A20 LIME2](https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXIno-LIME2/) that provides a SATA interface, to avoid crappy SATA-to-USB Chinese converters.
+I realized this project at first using a [BeagleBone](https://www.beagleboard.org/) and [Raspberry PI](https://www.raspberrypi.org/). However in both cases I had a lot of troubles with external drives attached via USB. For this reason I switched to [OLinuxino A20 LIME2](https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXIno-LIME2/) that provides a SATA interface, to avoid crappy SATA-to-USB Chinese converters.
 
 The system now works well and streams all sort of media contents directly to my network-attached TV.
 
@@ -87,6 +87,6 @@ Here are the schematics in case someone is interested (annotations are in Italia
 
 ## UsbPicProg (2006)
 
-I've been working with the main author, Frans Schreuder, to a low-cost, versatile [USB PIC programmer](http://usbpicprog.org). In particular, I wrote some parts of the GUI of the programmer.
+I've been working with the main author, Frans Schreuder, to a low-cost, versatile [USB PIC programmer](https://usbpicprog.org). In particular, I wrote some parts of the GUI of the programmer.
 
 [![programmer](/assets/ele/usbpicprog_small.png)](/assets/ele/usbpicprog.png)

@@ -33,8 +33,8 @@ Recently I have been working on:
 At some point I started to work create and publish libraries and low-level tools designed
 to solve some issue I encountered in my everyday job:
 
-*   [Large PCAP analyzer](http://github.com/f18m/large-pcap-analyzer): a simple tool to handle large files containing captured traffic (e.g., TCP/IP)
-*   [CPU-MEM-monitor](http://github.com/f18m/CPU-MEM-monitor): a simple script to log Linux CPU and memory usage over time and output an Excel-friendly report.
+*   [Large PCAP analyzer](https://github.com/f18m/large-pcap-analyzer): a simple tool to handle large files containing captured traffic (e.g., TCP/IP)
+*   [CPU-MEM-monitor](https://github.com/f18m/CPU-MEM-monitor): a simple script to log Linux CPU and memory usage over time and output an Excel-friendly report.
 *   [rpm-make-rules-dependency-lister](https://github.com/f18m/rpm-make-rules-dependency-lister): a small tool to allow incremental RPM packaging, useful to speed up your deployment chain when you are packaging several RPMs
 *   [rpm-spec-dependency-analyzer](https://github.com/f18m/rpm-spec-dependency-analyzer): a simple Python3 script to generate a DOT graph of the inter-dependencies among a set of SPEC files
 *   [malloc-benchmarks](https://github.com/f18m/malloc-benchmarks): simple benchmarking scripts to run on any machine to compare different C/C++ malloc implementations.
@@ -49,15 +49,15 @@ A few more github-based projects I have contributed to are:
 
 Other miscellaneous projects I created or where I collaborated:
 
-*   [EmfPrinter](http://emfprinter.sf.net): a virtual printer driver for Windows 2000 and Windows XP, which allows you to generate EMF and WMF
+*   [EmfPrinter](https://emfprinter.sf.net): a virtual printer driver for Windows 2000 and Windows XP, which allows you to generate EMF and WMF
 *   [muParser](https://beltoforion.de/en/muparser/): fast math parser library
 *   [UsbPicProg](https://usbpicprog.org/): a free and open source usb pic programmer
-*   [OphMedRecords](http://ophmedrecords.sf.net/): a simple ophthalmic medical records archival software
+*   [OphMedRecords](https://ophmedrecords.sf.net/): a simple ophthalmic medical records archival software
 
 
 ## Games (2009-2014) 
 
-I did create also a couple of simple games (I may open-source them in the future) using [Unity](http://unity.com/) (which back at the time was named _Unity3D_).
+I did create also a couple of simple games (I may open-source them in the future) using [Unity](https://unity.com/) (which back at the time was named _Unity3D_).
 Back at the time I contributed a simple Hermite Spline Controller but that was lost after the Unity3D Wiki was shut down.
 
 ![Unity3D](/assets/images/unity3d.png) 
@@ -69,13 +69,13 @@ During my PhD I have been writing ton of MATLAB code regarding the wide fields o
 
 ![MATLAB](/assets/images/matlab.png)
 
-Most of that code is specifically tied to my scientific research and I have uploaded it at [https://sourceforge.net/projects/frm-research/](https://sourceforge.net/projects/frm-research/). Some code is generic enough to be useful to others; for this reason I'm (slowly) posting on [the MATLAB FileExchange page](https://it.mathworks.com/matlabcentral/profile/authors/2008460) some of my most general-purpose code.
+Most of that code is specifically tied to my scientific research and I have uploaded it at [https://sourceforge.net/projects/frm-research/](https://sourceforge.net/projects/frm-research/). Some code is generic enough to be useful to others; for this reason I'm (slowly) posting on [the MATLAB FileExchange page](https://it.mathworks.com/matlabcentral/profile/authors/2008460?detail=all) some of my most general-purpose code.
 
 
 ## Firefox addons (2009-2012)
 
 I'm not a fan of XUL programming but I'm a great fan of Firefox ;)  
-Recently I needed to to extend its functionalities and thus I took some time to create my own Firefox addon. As almost all Firefox extensions, it's written in a mix of JavaScript and XUL. The code was initially hosted by Mozdev.org but later I moved it to [this page](http://sourceforge.net/projects/contextcalc/) on Sourceforge.
+Recently I needed to to extend its functionalities and thus I took some time to create my own Firefox addon. As almost all Firefox extensions, it's written in a mix of JavaScript and XUL. The code was initially hosted by Mozdev.org but later I moved it to [this page](https://sourceforge.net/projects/contextcalc/) on Sourceforge.
 
 ![Firefox](/assets/images/firefox.png)
 
@@ -84,39 +84,39 @@ In December 2009 the first public version, 0.3, was released. I've not been upda
 ## Bakefile (2007-2009)
 
 To create all build systems for my software packages I have been using for some time [Bakefile](https://github.com/vslavik/bakefile): a cross-platform, open source makefile- and IDE projects- generator. I created the bakefiles for various wxWidgets-related libraries.
-I've also contributed various patches to Bakefile: you can see them [here](http://sourceforge.net/tracker/?atid=568031&group_id=83016&func=browse&by_submitter=frm).
+I've also contributed various patches to Bakefile: you can see them [here](https://sourceforge.net/tracker/?atid=568031&group_id=83016&func=browse&by_submitter=frm).
 
 
 ## wxCode (2005-2009)
 
-I have written various components for wxWidgets hosted by [wxCode](http://wxcode.sourceforge.net) and written in C++:
+I have written various components for wxWidgets hosted by [wxCode](https://wxcode.sourceforge.net) and written in C++:
 ![wxCode](/assets/images/wxcodelogo2.png)
 
 wxCode has been retired and its website shut down in 2018.
 The code is still there though. So this is the list of the components I contributed to wxCode:
 
 *   [Keybinder](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/keybinder)
-*   [wxExtMiniFrame](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/paletteframe)
+*   [wxExtMiniFrame](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/extminiframe)
 *   [wxScript](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/wxscript)
 *   [wxXml2](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/wxxml2)
 *   [WebUpdate](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/webupdate)
 
 
 ## wxWidgets programming (2003-2009) 
-[wxWidgets](http://www.wxwidgets.org) is a powerful library and an [open source](http://www.opensource.org) C++ toolkit for cross-platform Graphical User Interfaces (GUI). I've submitted a good number of patches to wxWidgets project: you can browse them [here](http://trac.wxwidgets.org/query?status=accepted&status=closed&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=portneeded&status=reopened&group=component&reporter=%24USER&order=priority). In 2007-2009 I have been one of the wxWidgets developers and I worked in many areas of the library (new widgets: wx\*PickerCtrl, wxCollapsiblePane; documentation of wxWidgets, bugfixing, etc). I've been involved in various open-source projects related to wxWidgets:
+[wxWidgets](https://www.wxwidgets.org) is a powerful library and an [open source](https://www.opensource.org) C++ toolkit for cross-platform Graphical User Interfaces (GUI). I've submitted a good number of patches to wxWidgets project: you can browse them [here](https://trac.wxwidgets.org/query?status=accepted&status=closed&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=portneeded&status=reopened&group=component&reporter=%24USER&order=priority). In 2007-2009 I have been one of the wxWidgets developers and I worked in many areas of the library (new widgets: wx\*PickerCtrl, wxCollapsiblePane; documentation of wxWidgets, bugfixing, etc). I've been involved in various open-source projects related to wxWidgets:
 
 ![wxWidgets](/assets/images/wxlogo.jpg)
 
-*   [MathStudio](http://mathstudio.sf.net): an attempt to build an easy-to-use CAS
-*   [wxCode](http://wxcode.sf.net): a repository of wxWidgets addons
-*   [wxArt2d](http://wxart2d.sf.net): 2D drawing facilities
-*   [wxLua](http://wxlua.sf.net): Lua bindings to wxWidgets
-*   [wxGlPlot](http://mathdev.sf.net): a plotter for 2D/3D mathematical functions
+*   [MathStudio](https://mathstudio.sf.net): an attempt to build an easy-to-use CAS
+*   [wxCode](https://wxcode.sf.net): a repository of wxWidgets addons
+*   [wxArt2d](https://wxart2d.sf.net): 2D drawing facilities
+*   [wxLua](https://wxlua.sf.net): Lua bindings to wxWidgets
+*   [wxGlPlot](https://mathdev.sf.net): a plotter for 2D/3D mathematical functions
 
   
 ## Google Summer of Code (2006-2007)
 
-On summer 2006 and 2007, I also partecipated to the [Google Summer of Code](http://code.google.com/soc/) with wxWidgets projects: the [wxWidgets package manager](http://wiki.wxwidgets.org/ComponentManager) and the XTI metadata completion.
+On summer 2006 and 2007, I also partecipated to the [Google Summer of Code](https://code.google.com/soc/) with wxWidgets projects: the [wxWidgets package manager](https://wiki.wxwidgets.org/ComponentManager) and the XTI metadata completion.
 
 ![GSoc](/assets/images/soc2007.gif)
 
@@ -129,7 +129,7 @@ Back in 2006 I did contribute the `--group-directories-first` option to the `ls`
 
 ## PlanetSourceCode (2003-2004)
 
-At the beginning of my programming experiences I posted some of my works at [http://www.planetsourcecode.com](https://web.archive.org/web/20191215041540/http://www.planetsourcecode.com/).
+At the beginning of my programming experiences I posted some of my works at [www.planetsourcecode.com](https://web.archive.org/web/20191215041540/http://www.planetsourcecode.com/).
 
 These very old projects have been lost when PlanetSourceCode has been shut down.
 But I still have a copy of my old _CountDown_ utility zipped [here](/assets/prog/countdown.zip).
