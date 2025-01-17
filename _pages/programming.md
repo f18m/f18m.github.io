@@ -17,6 +17,7 @@ Recently I have been working on:
 
 * [HomeAssistant DHCP server](https://github.com/f18m/ha-addon-dnsmasq-dhcp-server): An Home Assistant addon that runs dnsmasq as a DHCP server; the perfect tool to take control of all your home automation devices and have a single pane of glass.
 * [HomeAssistant RPi MQTT bridge](https://github.com/f18m/rpi2home-assistant): A software daemon to expose Raspberry PI inputs and outputs to HomeAssistant through MQTT.
+* [PSMQTT](https://github.com/eschava/psmqtt/): a cross-platform utility for reporting system and processes metrics (CPU, memory, disks, network, S.M.A.R.T. disk data) to an MQTT broker.
 * [cMonitor](https://github.com/f18m/cmonitor): a Docker/LXC/Kubernetes, database-free, lightweight container performance monitoring solution.
 * [MallocTag](https://github.com/f18m/malloc-tag): a lighweight, intrusive memory profiler that allows to categorize or "tag" memory allocation inside C/C++ projects
 * [Boost Intrusive Pool](https://github.com/f18m/boost-intrusive-pool): A C++ memory pool that is Boost-friendly and performance oriented (zero-malloc).
