@@ -1,10 +1,5 @@
 {
   "extends": [
     "config:recommended"
-  ],
-  "packageRules": [
-    {
-      "dependencyDashboardApproval": false
-    }
   ]
 }
