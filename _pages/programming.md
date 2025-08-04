@@ -6,18 +6,20 @@ toc: true
 date:   2024-11-12
 author_profile: true
 ---
-  
+
+[My GitHub page](https://github.com/f18m?tab=repositories) is where all my recent activity is stored and indexed.
 In this page I keep track of my various projects involving computer science and computer programming. They are roughly ordered by year and by category.
 
-## Most recent projects (2020-2024)
+## HomeAssistant projects (2024-2025)
 
-[my GitHub page](https://github.com/f18m?tab=repositories) is where all my recent activity is stored
-and indexed.
-Recently I have been working on:
-
+* [HomeAssistant VOIP client](https://github.com/f18m/ha-addon-voip-client): An Home Assistant addon that runs a VOIP client, to initiate outgoing calls or receive incoming calls
 * [HomeAssistant DHCP server](https://github.com/f18m/ha-addon-dnsmasq-dhcp-server): An Home Assistant addon that runs dnsmasq as a DHCP server; the perfect tool to take control of all your home automation devices and have a single pane of glass.
 * [HomeAssistant RPi MQTT bridge](https://github.com/f18m/rpi2home-assistant): A software daemon to expose Raspberry PI inputs and outputs to HomeAssistant through MQTT.
 * [PSMQTT](https://github.com/eschava/psmqtt/): a cross-platform utility for reporting system and processes metrics (CPU, memory, disks, network, S.M.A.R.T. disk data) to an MQTT broker.
+
+
+## Utilities for commercial projects (2020-2024)
+
 * [cMonitor](https://github.com/f18m/cmonitor): a Docker/LXC/Kubernetes, database-free, lightweight container performance monitoring solution.
 * [MallocTag](https://github.com/f18m/malloc-tag): a lighweight, intrusive memory profiler that allows to categorize or "tag" memory allocation inside C/C++ projects
 * [Boost Intrusive Pool](https://github.com/f18m/boost-intrusive-pool): A C++ memory pool that is Boost-friendly and performance oriented (zero-malloc).
