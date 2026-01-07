@@ -9,20 +9,16 @@ author_profile: true
 
 One of my favourite hobbies is Do-It-Yourself (DIY) electronics.
 
-[![Electromagnetic spectrum for the hobbyist](/assets/ele/electromagnetic_spectrum_small.png "Electromagnetic spectrum for the hobbyist")](/assets/ele/electromagnetic_spectrum.png)
+I like to design and assemble my own projects, even if that takes lots of time!
 
-I like to design and assemble my own projects, even if that takes lots of time! (Most people only build projects designed and coinceived by others - there are plenty of them on the web - but I prefer to design from scratch all my circuits!).  
-  
 In this page I list some of my main electronic projects, listed from the most recent to the oldest one.
 
-## Software Tools for HW projects
 
-My favourite software packages for electronics were:
+## Floor Heating Controller (2025-2026)
 
-* _Spectrum Microcap_ as SPICE simulator; unfortunately the company behind this simulator was shut down. I need to find a modern alternative!
-* _CadSoft EAGLE_ as schematic CAD; unfortunately this software product has been acquired by Autodesk which is discontinuing this tool... it's a pity.
+Have a look at the home of the project [Floor-heating controller](https://github.com/f18m/floor-heating-controller)
+for more info on this!
 
-Nowadays electronics involves lots of technologies and thus lots of different software; during my thesis and my projects I've thus used also: Cadence OrCAD, National Instruments MultiSim, Microchip MPLAB IDE, Altera Quartus II, Texas Instruments Code Composer Studio, Kicad.
 
 ## BeagleTorrent (2013-2016) 
 

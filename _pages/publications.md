@@ -13,7 +13,7 @@ Additional information are available on the [website](https://www.sigcomm.unimor
 
 As effort to comply with the [Open Science movement](https://en.wikipedia.org/wiki/Open_science), I published the source code (mostly MATLAB code) which I developed during my PhD and which was used to generate the numerical results of my papers. All the code is accessible through [my SourceForge project collecting my scientific research code](https://sourceforge.net/projects/frm-research/) or through the links below.
 
-More details about some of my research work will be available in my [PhD thesis](https://morethesis.unimore.it/theses/available/etd-01142013-121728/).
+More details about some of my research work are available in my [PhD thesis](https://morethesis.unimore.it/theses/available/etd-01142013-121728/).
 
 The rest of this page lists my publications organized differentiating between journal, conference and submitted publications. Note that some information about my publications are also available on my [Google Scholar profile](https://scholar.google.it/citations?user=aMyZpiwAAAAJ).
 
