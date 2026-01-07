@@ -11,18 +11,13 @@ Welcome to my homepage. My name is **Francesco Montorsi**.
 
 ## Short Bio
 
-Very short bio: I was born in 1986 near Modena, Italy. I took the Bachelor Degree and the Master Degree in _Electronic Engineering_ at the [University of Modena and Reggio Emilia](https://www.ingmo.unimore.it/en). I took the PhD in the same university in the area of [telecommunications](https://en.wikipedia.org/wiki/Telecommunication) (more info about my PhD research activity is in the [publications](/publications/) page). I'm currently employed in a telecommunication company which provides high-performance high through-put live analysis of data on mobile network operators.
+Very short bio: I was born in the eighties in northern Italy. I took the Bachelor Degree and the Master Degree in _Electronic Engineering_ at the [University of Modena and Reggio Emilia](https://www.ingmo.unimore.it/en). 
+I then took a PhD in the telecom space (more info about my PhD research activity is in the [publications](/publications/) page). 
+After such academical journey I went into the industry and I've been working on a number of different software companies; more details about my work experiences are available on [my LinkedIn profile](https://www.linkedin.com/in/francescomontorsi).
+My curriculum vitae is available [here](/assets/misc/Francesco_Montorsi_CV.pdf) as well.
 
 My favourite hobbies are [computer programming](/programming/) (thus you'll find here mostly stuff about it) and [DIY electronics](/electronics/).  
 I keep up to date also a page with my (scientific) [publications](/publications/) and the related material (software and data used in the papers, etc).
-
-My curriculum vitae is available [here](/assets/misc/Francesco_Montorsi_CV.pdf) as well as my theses:
-
-*   [bachelor thesis](https://sourceforge.net/projects/frm-research/files/Publications/tesi_triennale.pdf) (in italian) entitled "Development of Fine Frequency Synchronization System for OFDM Communication Systems";
-*   [master thesis](https://sourceforge.net/projects/frm-research/files/Publications/tesi_specialistica.pdf) (in italian) entitled "Development and Implementation of a Wideband Digital Modem";
-*   PhD thesis: not public yet (will be released to public in 2016)
-
-I also have a public profile on LinkedIn: [https://www.linkedin.com/in/francescomontorsi](https://www.linkedin.com/in/francescomontorsi).
 
 These pages are updated when I have time (i.e. rarely)...
 

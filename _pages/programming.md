@@ -3,12 +3,18 @@ layout: single
 permalink: /programming/
 title:  "My Software Projects"
 toc: true
-date:   2024-11-12
+date:   2025-11-12
 author_profile: true
 ---
 
 [My GitHub page](https://github.com/f18m?tab=repositories) is where all my recent activity is stored and indexed.
 In this page I keep track of my various projects involving computer science and computer programming. They are roughly ordered by year and by category.
+
+## More HomeAssistant projects (2025-2026)
+
+* [Floor-heating controller](https://github.com/f18m/floor-heating-controller)
+* [HERAComm Invoice analyzer](https://github.com/f18m/heracomm-invoice-analyzer)
+
 
 ## HomeAssistant projects (2024-2025)
 
