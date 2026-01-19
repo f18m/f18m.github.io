@@ -12,8 +12,9 @@ In this page I keep track of my various projects involving computer science and 
 
 ## More HomeAssistant projects (2025-2026)
 
-* [Floor-heating controller](https://github.com/f18m/floor-heating-controller)
-* [HERAComm Invoice analyzer](https://github.com/f18m/heracomm-invoice-analyzer)
+* [Floor-heating controller](https://github.com/f18m/floor-heating-controller): an ESPHome package that allows me to control from Home Assistant all the hydraulic valves for floor heating.
+* [viessmann-optolink2mqtt](https://github.com/f18m/viessmann-optolink2mqtt): a bridge between my Viessmann heatpump device and MQTT to enable smart control of the house heating.
+* [HERAComm Invoice analyzer](https://github.com/f18m/heracomm-invoice-analyzer): an utility Python project to help me analyze invoices related to electric and gas utilities
 
 
 ## HomeAssistant projects (2024-2025)
