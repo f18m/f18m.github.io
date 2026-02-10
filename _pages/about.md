@@ -14,7 +14,6 @@ Welcome to my homepage. My name is **Francesco Montorsi**.
 Very short bio: I was born in the eighties in northern Italy. I took the Bachelor Degree and the Master Degree in _Electronic Engineering_ at the [University of Modena and Reggio Emilia](https://www.ingmo.unimore.it/en). 
 I then took a PhD in the telecom space (more info about my PhD research activity is in the [publications](/publications/) page). 
 After such academical journey I went into the industry and I've been working on a number of different software companies; more details about my work experiences are available on [my LinkedIn profile](https://www.linkedin.com/in/francescomontorsi).
-My curriculum vitae is available [here](/assets/misc/Francesco_Montorsi_CV.pdf) as well.
 
 My favourite hobbies are [computer programming](/programming/) (thus you'll find here mostly stuff about it) and [DIY electronics](/electronics/).  
 I keep up to date also a page with my (scientific) [publications](/publications/) and the related material (software and data used in the papers, etc).
