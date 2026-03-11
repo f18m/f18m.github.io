@@ -3,7 +3,7 @@ layout: single
 permalink: /programming/
 title:  "My Software Projects"
 toc: true
-date:   2025-11-12
+date:   2026-03-11
 author_profile: true
 ---
 
@@ -12,18 +12,25 @@ In this page I keep track of my various projects involving computer science and 
 
 ## More HomeAssistant projects (2025-2026)
 
+* [ESPHome HA Interface Panel](https://github.com/f18m/esphome-ha-interface-panel): an ESPHome-based touch screen panel to install in your house to interface with HomeAssistant.
 * [Floor-heating controller](https://github.com/f18m/floor-heating-controller): an ESPHome package that allows me to control from Home Assistant all the hydraulic valves for floor heating.
 * [viessmann-optolink2mqtt](https://github.com/f18m/viessmann-optolink2mqtt): a bridge between my Viessmann heatpump device and MQTT to enable smart control of the house heating.
 * [HERAComm Invoice analyzer](https://github.com/f18m/heracomm-invoice-analyzer): an utility Python project to help me analyze invoices related to electric and gas utilities
+* [photo-metadata-sanitizer-tools](https://github.com/f18m/photo-metadata-sanitizer-tools): scripts and Docker containers to analyze and fix metadata in a semi-automated way across large photo collections.
 
+## eBPF Tools (2025-2026)
+
+* [ebpf-netflow-tracer](https://github.com/f18m/ebpf-netflow-tracer): a small eBPF utility to find out active TCP connections and depict them as a graph using Graphviz/DOT.
+* [ebpf-tcptracker](https://github.com/f18m/ebpf-tcptracker): an eBPF-based traffic tap designed for Kubernetes environments.
 
 ## HomeAssistant projects (2024-2025)
 
 * [HomeAssistant VOIP client](https://github.com/f18m/ha-addon-voip-client): An Home Assistant addon that runs a VOIP client, to initiate outgoing calls or receive incoming calls
-* [HomeAssistant DHCP server](https://github.com/f18m/ha-addon-dnsmasq-dhcp-server): An Home Assistant addon that runs dnsmasq as a DHCP server; the perfect tool to take control of all your home automation devices and have a single pane of glass.
+* [go-baresip](https://github.com/f18m/go-baresip): a Go wrapper around the baresip VOIP library, used by the HomeAssistant VOIP client addon above.
+* [HomeAssistant DHCP server](https://github.com/f18m/ha-addon-dnsmasq-dhcp): An Home Assistant addon that runs dnsmasq as a DHCP server; the perfect tool to take control of all your home automation devices and have a single pane of glass.
 * [HomeAssistant RPi MQTT bridge](https://github.com/f18m/rpi2home-assistant): A software daemon to expose Raspberry PI inputs and outputs to HomeAssistant through MQTT.
+* [HomeAssistant addons repository](https://github.com/f18m/ha-addons-repo): the repository that indexes all my Home Assistant addons so that they can be easily installed from the HA UI.
 * [PSMQTT](https://github.com/eschava/psmqtt/): a cross-platform utility for reporting system and processes metrics (CPU, memory, disks, network, S.M.A.R.T. disk data) to an MQTT broker.
-
 
 ## Utilities for commercial projects (2020-2024)
 
@@ -38,16 +45,20 @@ In this page I keep track of my various projects involving computer science and 
 *   [NetlistViewer](https://github.com/f18m/netlist-viewer): a tool capable of loading SPICE netlists and convert them in a schematic (i.e., graphical format)
 
 
-## Tools and Libraries (2017-2019) 
+## Tools and Libraries (2017-2023) 
 
 At some point I started to work create and publish libraries and low-level tools designed
 to solve some issue I encountered in my everyday job:
 
 *   [Large PCAP analyzer](https://github.com/f18m/large-pcap-analyzer): a simple tool to handle large files containing captured traffic (e.g., TCP/IP)
+*   [go-pcap-analyzer](https://github.com/f18m/go-pcap-analyzer): a simple Go application to read PCAP files and parse packets
+*   [rust-pcap-analyzer](https://github.com/f18m/rust-pcap-analyzer): a simple Rust application to read PCAP files and parse packets
 *   [CPU-MEM-monitor](https://github.com/f18m/CPU-MEM-monitor): a simple script to log Linux CPU and memory usage over time and output an Excel-friendly report.
+*   [iperf3-continuous-logger](https://github.com/f18m/iperf3-continuous-logger): small scripts to run iperf3 continuously to produce a CSV report of measured speed over long periods of time.
 *   [rpm-make-rules-dependency-lister](https://github.com/f18m/rpm-make-rules-dependency-lister): a small tool to allow incremental RPM packaging, useful to speed up your deployment chain when you are packaging several RPMs
 *   [rpm-spec-dependency-analyzer](https://github.com/f18m/rpm-spec-dependency-analyzer): a simple Python3 script to generate a DOT graph of the inter-dependencies among a set of SPEC files
 *   [malloc-benchmarks](https://github.com/f18m/malloc-benchmarks): simple benchmarking scripts to run on any machine to compare different C/C++ malloc implementations.
+*   [microirrigation-control](https://github.com/f18m/microirrigation-control): hardware, firmware and software to control micro-irrigation valves from a web browser (smartphone-friendly), running on Linux single-board computers.
 
 A few more github-based projects I have contributed to are:
 
@@ -81,6 +92,8 @@ During my PhD I have been writing ton of MATLAB code regarding the wide fields o
 
 Most of that code is specifically tied to my scientific research and I have uploaded it at [https://sourceforge.net/projects/frm-research/](https://sourceforge.net/projects/frm-research/). Some code is generic enough to be useful to others; for this reason I'm (slowly) posting on [the MATLAB FileExchange page](https://it.mathworks.com/matlabcentral/profile/authors/2008460?detail=all) some of my most general-purpose code.
 
+More recently I also published [matlab-insomnia](https://github.com/f18m/matlab-insomnia), a small utility that prevents automatic sleep mode on Windows computers while MATLAB is running.
+
 
 ## Firefox addons (2009-2012)
 
@@ -112,7 +125,8 @@ The code is still there though. So this is the list of the components I contribu
 *   [WebUpdate](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/webupdate)
 
 
-## wxWidgets programming (2003-2009) 
+## wxWidgets programming (2003-2009)
+
 [wxWidgets](https://www.wxwidgets.org) is a powerful library and an [open source](https://www.opensource.org) C++ toolkit for cross-platform Graphical User Interfaces (GUI). I've submitted a good number of patches to wxWidgets project: you can browse them [here](https://trac.wxwidgets.org/query?status=accepted&status=closed&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=portneeded&status=reopened&group=component&reporter=%24USER&order=priority). In 2007-2009 I have been one of the wxWidgets developers and I worked in many areas of the library (new widgets: wx\*PickerCtrl, wxCollapsiblePane; documentation of wxWidgets, bugfixing, etc). I've been involved in various open-source projects related to wxWidgets:
 
 ![wxWidgets](/assets/images/wxlogo.jpg)
