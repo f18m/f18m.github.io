@@ -18,6 +18,10 @@ In this page I keep track of my various projects involving computer science and 
 * [HERAComm Invoice analyzer](https://github.com/f18m/heracomm-invoice-analyzer): an utility Python project to help me analyze invoices related to electric and gas utilities
 * [photo-metadata-sanitizer-tools](https://github.com/f18m/photo-metadata-sanitizer-tools): scripts and Docker containers to analyze and fix metadata in a semi-automated way across large photo collections.
 
+## eBPF Tools (2025-2026)
+
+* [ebpf-netflow-tracer](https://github.com/f18m/ebpf-netflow-tracer): a small eBPF utility to find out active TCP connections and depict them as a graph using Graphviz/DOT.
+* [ebpf-tcptracker](https://github.com/f18m/ebpf-tcptracker): an eBPF-based traffic tap designed for Kubernetes environments.
 
 ## HomeAssistant projects (2024-2025)
 
@@ -27,14 +31,6 @@ In this page I keep track of my various projects involving computer science and 
 * [HomeAssistant RPi MQTT bridge](https://github.com/f18m/rpi2home-assistant): A software daemon to expose Raspberry PI inputs and outputs to HomeAssistant through MQTT.
 * [HomeAssistant addons repository](https://github.com/f18m/ha-addons-repo): the repository that indexes all my Home Assistant addons so that they can be easily installed from the HA UI.
 * [PSMQTT](https://github.com/eschava/psmqtt/): a cross-platform utility for reporting system and processes metrics (CPU, memory, disks, network, S.M.A.R.T. disk data) to an MQTT broker.
-
-
-## eBPF Tools (2025-2026)
-
-* [ebpf-netflow-tracer](https://github.com/f18m/ebpf-netflow-tracer): a small eBPF utility to find out active TCP connections and depict them as a graph using Graphviz/DOT.
-* [ebpf-tcptracker](https://github.com/f18m/ebpf-tcptracker): an eBPF-based traffic tap designed for Kubernetes environments.
-* [test-mcp-server](https://github.com/f18m/test-mcp-server): a small [MCP](https://modelcontextprotocol.io/) server to experiment with MCP technology.
-
 
 ## Utilities for commercial projects (2020-2024)
 
