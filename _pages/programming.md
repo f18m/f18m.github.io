@@ -84,7 +84,7 @@ Back at the time I contributed a simple Hermite Spline Controller but that was l
 ![Unity3D](/assets/images/unity3d.png) 
 
 
-## MATLAB contributions (2009-2023) 
+## MATLAB contributions (2009-2013) 
 
 During my PhD I have been writing ton of MATLAB code regarding the wide fields of: a) signal processing (in particular for radio and inertial signals), b) modelling of localization system signals, c) statistical estimation (e.g., imeplementation of maximum-a-posteriori estimators for specific problems), d) pattern recognition.
 
@@ -125,7 +125,8 @@ The code is still there though. So this is the list of the components I contribu
 *   [WebUpdate](https://sourceforge.net/p/wxcode/code/HEAD/tree/trunk/wxCode/components/webupdate)
 
 
-## wxWidgets programming (2003-2009) 
+## wxWidgets programming (2003-2009)
+
 [wxWidgets](https://www.wxwidgets.org) is a powerful library and an [open source](https://www.opensource.org) C++ toolkit for cross-platform Graphical User Interfaces (GUI). I've submitted a good number of patches to wxWidgets project: you can browse them [here](https://trac.wxwidgets.org/query?status=accepted&status=closed&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=portneeded&status=reopened&group=component&reporter=%24USER&order=priority). In 2007-2009 I have been one of the wxWidgets developers and I worked in many areas of the library (new widgets: wx\*PickerCtrl, wxCollapsiblePane; documentation of wxWidgets, bugfixing, etc). I've been involved in various open-source projects related to wxWidgets:
 
 ![wxWidgets](/assets/images/wxlogo.jpg)
